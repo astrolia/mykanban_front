@@ -1,0 +1,36 @@
+.MainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #121212; /* Fundo escuro combinando com o seu tema */
+  color: #fff;
+}
+
+.MainDiv form {
+  display: flex;
+  flex-direction: column; /* Empilha os inputs um abaixo do outro */
+  gap: 10px;               /* Espaçamento entre os elementos */
+  width: 300px;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.MainDiv input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.MainDiv button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
